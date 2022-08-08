@@ -1,4 +1,6 @@
-import { useState  } from 'react';
+import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { addContact } from 'redux/contacts';
 import PropTypes from 'prop-types';
 import {
   FormContacts,
@@ -8,14 +10,15 @@ import {
   InputForm,
 } from './ContactForm.styled';
 
-export const ContactForm = ({ onSubmit }) => {
+export const ContactForm = () => {
+  const dispatch = useDispatch();
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
 
   const handleSubmit = e => {
     e.preventDefault();
-    onSubmit({name, number});
+    dispatch(addContact(name, number));
     reset();
   };
 
