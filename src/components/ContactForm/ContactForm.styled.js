@@ -29,4 +29,8 @@ export const SubmitBtn = styled.button`
   border-radius: 4px;
   background-color: #323232;
   color: #fff;
+  &:hover{
+    cursor: pointer;
+    background-color: green;
+  }
 `;
