@@ -3,10 +3,7 @@ import { ContactsList } from './ContactsList/ContactsList';
 import { Filter } from 'components/Filter/Filter';
 import { Container } from './Container/container';
 
-
-
 export const App = () => {
-
   return (
     <>
       <Container>
