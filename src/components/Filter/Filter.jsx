@@ -1,5 +1,3 @@
-
-// import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
 import { change } from 'redux/filter';
 import { FilterTitle, FilterLabel, FilterInput } from './Filter.styled';
@@ -17,7 +15,3 @@ export const Filter=()=>{
       </>
     );
 }
-// Filter.propTypes = {
-//     onChange: PropTypes.func.isRequired,
-//     value: PropTypes.string.isRequired,
-//   };
