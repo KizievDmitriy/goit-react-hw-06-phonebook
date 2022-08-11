@@ -27,8 +27,10 @@ export const SubmitBtn = styled.button`
   text-transform: uppercase;
   padding: 6px 20px;
   border-radius: 4px;
+  border: none;
   background-color: #323232;
   color: #fff;
+  transition: all 350ms ease-in;
   &:hover{
     cursor: pointer;
     background-color: green;
