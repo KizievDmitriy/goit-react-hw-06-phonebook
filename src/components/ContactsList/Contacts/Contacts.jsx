@@ -18,7 +18,7 @@ export const Contacts = ({ name, number, id }) => {
   );
 };
 
-Contacts.propType = {
+Contacts.propTypes = {
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   number: PropTypes.string.isRequired,
