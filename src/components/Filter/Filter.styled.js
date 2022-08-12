@@ -10,6 +10,9 @@ export const FilterTitle = styled.span`
 
 export const FilterInput = styled.input`
   font-size: 16px;
-  height: 30px;
   width: 50%;
+  padding: 0 10px;
+  height: 40px;
+  font-size: 16px;
+  color: grey;
 `;

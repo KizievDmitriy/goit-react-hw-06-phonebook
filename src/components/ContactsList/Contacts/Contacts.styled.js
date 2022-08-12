@@ -29,3 +29,11 @@ export const DeleteBtn = styled.button`
     background-color: red;
   }
 `;
+export const Name = styled.p`
+  margin-right: 20px;
+  text-transform: uppercase;
+`;
+export const Number = styled.p`
+margin-left: auto;
+  margin-right: 20px;
+`;

@@ -19,8 +19,10 @@ export const TitleForm = styled.span`
 `;
 
 export const InputForm = styled.input`
-  font-size: 16px;
+  padding: 0 10px;
   height: 40px;
+  font-size: 16px;
+  color: grey;
 `;
 
 export const SubmitBtn = styled.button`

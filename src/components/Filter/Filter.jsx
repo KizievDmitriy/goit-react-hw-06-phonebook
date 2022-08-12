@@ -10,7 +10,12 @@ export const Filter = () =>{
       <>
         <FilterLabel>
           <FilterTitle>Find contacts by name</FilterTitle>
-          <FilterInput type="text" value={filter} onChange={e => dispatch(changeFilter(e.target.value))} />
+          <FilterInput
+            type="text"
+            value={filter}
+            onChange={e => dispatch(changeFilter(e.target.value))}
+            placeholder="Enter Name"
+          />
         </FilterLabel>
       </>
     );
